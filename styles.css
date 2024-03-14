@@ -1,0 +1,97 @@
+body {
+    background-color:darkseagreen;
+}
+
+.container-fluid {
+    display: flex; 
+}
+
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+  }
+  
+aside > p {
+    margin: 0.5rem;
+  }
+
+p {
+    background-origin: padding-box;
+}
+
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.angkor-regular {
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+h1 {
+    font-family: "Angkor" , serif;
+    color:seagreen;
+    margin: 2px;
+    padding:2px;
+}
+
+nav {
+    font-family: "Space Grotesk", sans-serif;
+    color:seagreen;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: olivedrab;
+  }
+
+ 
+
+
+
+  details {
+    border: 5px solid black;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    background-color: antiquewhite;
+  }
+  
+  summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+  
+  details[open] {
+    padding: 0.5em;
+  }
+
+
